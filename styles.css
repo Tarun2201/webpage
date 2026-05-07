@@ -463,6 +463,11 @@ main {
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
 
+.rank {
+  font-family: "Fraunces", serif;
+  font-weight: 800;
+}
+
 .clean-list {
   list-style: none;
   display: grid;
