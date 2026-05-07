@@ -234,7 +234,9 @@ main {
 .hero h1 {
   font-family: "Fraunces", serif;
   font-size: clamp(2.6rem, 3vw, 3.4rem);
+  font-weight: 600;
   margin: 12px 0 16px;
+  text-align: center;
 }
 
 .eyebrow {
