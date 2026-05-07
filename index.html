@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tarun Kumar Garg | Medical Imaging and Federated Learning</title>
+    <meta
+      name="description"
+      content="PhD student at IISc Bangalore working on medical imaging, federated learning, model compression, and weakly supervised segmentation."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Fraunces:wght@400;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="site-header">
+        <div class="brand">
+          <span class="brand-mark">TKG</span>
+          <span class="brand-name">Tarun Kumar Garg</span>
+        </div>
+        <nav class="nav">
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="header-actions">
+          <!--
+          <a class="btn ghost" href="main.tex" download>
+            Download CV
+          </a>
+          -->
+          <a class="btn primary" href="#contact">Let's connect</a>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero" id="about" data-reveal>
+          <div class="hero-content">
+            <p class="eyebrow">PhD in Engineering, IISc Bangalore</p>
+            <h1>Medical imaging researcher focused on robust, efficient learning.</h1>
+            <p class="lead">
+            I am a PhD student at IISc working in medical image analysis, with research interests in federated learning, model compression, and weakly supervised segmentation. My goal is to develop robust methods that perform reliably across clinical sites and under resource constraints. My background includes an M.Sc. in Mathematics (2020–2022), 1.5 years of industry experience until December 2023, a Project Associate role at IISER Mohali (January–July 2024), and my ongoing PhD at IISc since August 2024. I also worked as a Teaching Assistant for Machine Learning for Data Science from January to April 2026.
+            </p>
+            <div class="hero-meta">
+              <div class="meta-card">
+                <span class="meta-title">Research focus</span>
+                <p>Medical imaging, federated learning, model compression, weak supervision.</p>
+              </div>
+              <div class="meta-card">
+                <span class="meta-title">Industry</span>
+                <p>1.5 years at EXL Services building ML pipelines, APIs, and AWS workflows.</p>
+              </div>
+              <div class="meta-card">
+                <span class="meta-title">Teaching</span>
+                <p>TA, Machine Learning for Data Science (Jan 2026 - Apr 2026).</p>
+              </div>
+            </div>
+            <div class="hero-actions">
+              <a class="btn primary" href="#research">Explore research</a>
+            </div>
+          </div>
+          <div class="hero-aside">
+            <div class="card portrait-card">
+              <img
+                src="github_tarun.jpeg"
+                alt="Portrait of Tarun Kumar Garg"
+                class="portrait"
+              />
+              <span class="portrait-caption">PhD student, IISc Bangalore</span>
+            </div>
+            <div class="card stats-card">
+              <div class="stat">
+                <span class="stat-value">Aug 2024 - Present</span>
+                <span class="stat-label">PhD in Engineering, IISc Bangalore</span>
+              </div>
+              <div class="stat">
+                <span class="stat-value">2020 - 2022</span>
+                <span class="stat-label">M.Sc. Mathematics, IIT Bombay</span>
+              </div>
+              <div class="stat">
+                <span class="stat-value">Jul 2022 - Dec 2023</span>
+                <span class="stat-label">Consultant / Data Scientist, EXL Services</span>
+              </div>
+            </div>
+            <div class="card quote-card">
+              <p>
+                Working on clinical ML systems that stay accurate, efficient, and fair across
+                sites.
+              </p>
+              <span class="quote-meta">Medical imaging | Federated learning</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="section research" id="research" data-reveal>
+          <div class="section-header">
+            <h2>Research focus</h2>
+            <p class="section-subtitle">Current themes across my PhD work.</p>
+          </div>
+          <div class="card-grid">
+            <article class="card">
+              <h3>Medical image analysis</h3>
+              <p>
+                Multimodal MRI segmentation with clinical constraints and practical deployment
+                considerations.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Federated learning</h3>
+              <p>
+                Client-adaptive training with missing modalities and privacy-preserving
+                alignment.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Model compression</h3>
+              <p>
+                Structured pruning for 3D U-Net to reduce computation without sacrificing
+                accuracy.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Weak supervision</h3>
+              <p>
+                CAM-based aggregation and label-scarce training strategies for segmentation.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section projects" id="projects" data-reveal>
+          <div class="section-header">
+            <h2>Selected projects</h2>
+            <p class="section-subtitle">Research and academic work highlights.</p>
+          </div>
+          <div class="project-grid">
+            <article class="card project-card">
+              <h3>Client-Adaptive Modality-Agnostic Federated Learning</h3>
+              <p>
+                Federated framework for multiclass weakly supervised segmentation with
+                missing MRI modalities and client-specific alignment.
+              </p>
+              <div class="tag-row">
+                <span class="tag">Federated learning</span>
+                <span class="tag">Weak supervision</span>
+                <span class="tag">MRI</span>
+              </div>
+            </article>
+            <article class="card project-card">
+              <h3>Activation-Statistics-Driven Structured Pruning for U-Net</h3>
+              <p>
+                Structured pruning pipeline for 3D U-Net using activation statistics to
+                balance compression and segmentation accuracy.
+              </p>
+              <div class="tag-row">
+                <span class="tag">Model compression</span>
+                <span class="tag">U-Net</span>
+                <span class="tag">Efficiency</span>
+              </div>
+            </article>
+            <article class="card project-card">
+              <h3>MRI Modality Impact on Brain Tumor Segmentation</h3>
+              <p>
+                Systematic study of T1, T1ce, T2, and FLAIR to reduce acquisition time while
+                keeping segmentation performance.
+              </p>
+              <div class="tag-row">
+                <span class="tag">Medical imaging</span>
+                <span class="tag">Segmentation</span>
+                <span class="tag">FeTS 2022</span>
+              </div>
+            </article>
+            <article class="card project-card">
+              <h3>A Study on Modular Spaces</h3>
+              <p>
+                Project associate report on modular spaces, semimodulars, and
+                Musielak-Orlicz spaces.
+              </p>
+              <div class="tag-row">
+                <span class="tag">Mathematics</span>
+                <span class="tag">Functional analysis</span>
+                <span class="tag">Report</span>
+              </div>
+            </article>
+            <article class="card project-card">
+              <h3>Borsuk-Ulam Theorem and Graph Coloring</h3>
+              <p>
+                Algebraic topology study with a seminar on the Lovasz-Kneser theorem and its
+                consequences for graph coloring.
+              </p>
+              <div class="tag-row">
+                <span class="tag">Topology</span>
+                <span class="tag">Graph theory</span>
+                <span class="tag">Seminar</span>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section publications" id="publications" data-reveal hidden>
+          <div class="section-header">
+            <h2>Publications</h2>
+            <p class="section-subtitle">Selected papers under review.</p>
+          </div>
+          <ol class="pub-list">
+            <li>
+              Client-Adaptive Modality-Agnostic Federated Learning for Multiclass Weakly
+              Supervised Segmentation. T. K. Garg, K. R. Bagri, V. Sundaresan. MICCAI 2026,
+              under review (submitted May 2026).
+            </li>
+            <li>
+              FedASAP: Activation Statistics-Driven Structured Adaptive Pruning for Efficient
+              Personalized Federated Learning for Lesion Segmentation on Brain MRI. K. R.
+              Bagri, T. K. Garg, V. Sundaresan. Neural Networks, under review (submitted
+              December 2025). Equal contribution.
+            </li>
+          </ol>
+        </section>
+
+        <section class="section highlights" id="highlights" data-reveal>
+          <div class="section-header">
+            <h2>Skills &amp; Honors</h2>
+            <p class="section-subtitle">Honors and technical stack.</p>
+          </div>
+          <div class="highlight-grid">
+            <div class="card">
+              <h3>Scholastic achievements</h3>
+              <ul class="clean-list">
+                <li>AIR 1, IIT JAM Mathematics (2020).</li>
+                <li>AIR 16, CSIR NET JRF Mathematics (2024).</li>
+                <li>AIR 98, GATE Mathematics (2024).</li>
+                <li>AIR 23, CSIR NET JRF Mathematics (2022).</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3>Technical skills</h3>
+              <ul class="clean-list">
+                <li>Languages: Python, SQL.</li>
+                <li>Frameworks: PyTorch, MONAI.</li>
+                <li>ML stack: scikit-learn, pandas, NLTK, Matplotlib, Seaborn.</li>
+                <li>Engineering: FastAPI, Docker, AWS Lambda, ECR, Kinesis.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!--
+        <section class="section resources" id="resources" data-reveal>
+          <div class="section-header">
+            <h2>Resources</h2>
+            <p class="section-subtitle">Source documents from this repository.</p>
+          </div>
+          <div class="resource-grid">
+            <a class="card resource-card" href="main.tex" download>
+              <span class="resource-title">Download CV (LaTeX)</span>
+              <span class="resource-meta">main.tex</span>
+            </a>
+          </div>
+        </section>
+        -->
+
+        <section class="section contact" id="contact" data-reveal>
+          <div class="section-header">
+            <h2>Contact</h2>
+            <p class="section-subtitle">Open to collaborations in medical imaging and FL.</p>
+          </div>
+          <div class="card contact-card">
+            <div>
+              <p class="contact-label">Email</p>
+              <a href="mailto:tarun2201garg@gmail.com">tarun2201garg@gmail.com</a>
+            </div>
+            <div>
+              <p class="contact-label">Location</p>
+              <span>Bangalore, India</span>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <span>Last updated May 7, 2026.</span>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
